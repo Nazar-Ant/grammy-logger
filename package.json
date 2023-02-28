@@ -1,0 +1,40 @@
+{
+  "name": "grammy-logger",
+  "version": "1.0.0",
+  "description": "Logger for grammY",
+  "author": "Nazar Antoniuk",
+  "license": "MIT",
+  "files": [
+    "out/"
+  ],
+  "main": "./out/mod.js",
+  "type": "commonjs",
+  "exports": {
+    ".": "./out/mod.js"
+  },
+  "scripts": {
+    "build": "deno2node tsconfig.json"
+  },
+  "homepage": "https://github.com/Nazar-Ant/grammy-logger#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nazar-Ant/grammy-logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nazar-Ant/grammy-logger/issues"
+  },
+  "keywords": [
+    "grammy",
+    "logger",
+    "middleware",
+    "plugin",
+    "telemetry"
+  ],
+  "peerDependencies": {
+    "grammy": "^1.0.0"
+  },
+  "devDependencies": {
+    "@grammyjs/types": "^2.7.0",
+    "deno2node": "^1.0.0"
+  }
+}

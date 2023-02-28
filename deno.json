@@ -1,0 +1,20 @@
+{
+  "lock": false,
+  "fmt": {
+    "options": {
+      "singleQuote": true,
+      "proseWrap": "preserve"
+    },
+    "files": {
+      "include": ["src/"]
+    }
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"]
+    },
+    "files": {
+      "include": ["src/"]
+    }
+  }
+}
