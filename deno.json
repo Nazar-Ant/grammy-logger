@@ -6,7 +6,7 @@
       "proseWrap": "preserve"
     },
     "files": {
-      "include": ["src/"]
+      "include": ["src/", "tests/"]
     }
   },
   "lint": {
@@ -14,7 +14,12 @@
       "tags": ["recommended"]
     },
     "files": {
-      "include": ["src/"]
+      "include": ["src/", "tests/"]
+    }
+  },
+  "test": {
+    "files": {
+      "include": ["tests/"]
     }
   }
 }

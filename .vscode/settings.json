@@ -9,6 +9,7 @@
   "explorer.fileNesting.patterns": {
     "package.json": "package-lock.json",
     "deno.json": "deno.lock",
+    "*.ts": "${capture}.test.ts",
   },
   "deno.enable": true,
   "deno.lint": true,
